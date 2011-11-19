@@ -54,14 +54,31 @@
         <Filename Value="nnga.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Unit2"/>
-        <CursorPos X="51" Y="21"/>
-        <TopLine Value="7"/>
+        <CursorPos X="5" Y="23"/>
+        <TopLine Value="1"/>
         <EditorIndex Value="1"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit2>
     </Units>
-    <JumpHistory Count="0" HistoryIndex="-1"/>
+    <JumpHistory Count="4" HistoryIndex="3">
+      <Position1>
+        <Filename Value="nnga.pas"/>
+        <Caret Line="17" Column="8" TopLine="7"/>
+      </Position1>
+      <Position2>
+        <Filename Value="nnga.pas"/>
+        <Caret Line="13" Column="19" TopLine="2"/>
+      </Position2>
+      <Position3>
+        <Filename Value="nnga.pas"/>
+        <Caret Line="17" Column="47" TopLine="5"/>
+      </Position3>
+      <Position4>
+        <Filename Value="nnga.pas"/>
+        <Caret Line="19" Column="16" TopLine="7"/>
+      </Position4>
+    </JumpHistory>
   </ProjectOptions>
   <CompilerOptions>
     <Version Value="8"/>
