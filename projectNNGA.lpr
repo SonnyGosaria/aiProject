@@ -7,13 +7,12 @@ uses
   cthreads,
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, Unit1, LResources, nnga
+  Forms, Unit1
   { you can add units after this };
 
-{$IFDEF WINDOWS}{$R projectNNGA.rc}{$ENDIF}
+{$R *.res}
 
 begin
-  {$I projectNNGA.lrs}
   Application.Initialize;
   Application.CreateForm(TForm1, Form1);
   Application.Run;

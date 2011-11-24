@@ -1,8 +1,135 @@
 object Form1: TForm1
-  Left = 290
-  Height = 300
-  Top = 175
-  Width = 400
+  Left = 281
+  Height = 475
+  Top = 158
+  Width = 520
   Caption = 'Form1'
-  LCLVersion = '0.9.28.2'
+  ClientHeight = 475
+  ClientWidth = 520
+  OnCreate = FormCreate
+  LCLVersion = '0.9.30'
+  object Memo1: TMemo
+    Left = 256
+    Height = 215
+    Top = 17
+    Width = 245
+    Lines.Strings = (
+      ''
+    )
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 384
+    Height = 31
+    Top = 432
+    Width = 108
+    Caption = 'Construct'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Edit1: TEdit
+    Left = 88
+    Height = 21
+    Top = 35
+    Width = 62
+    OnExit = Edit1Exit
+    OnKeyPress = Edit1KeyPress
+    TabOrder = 2
+  end
+  object Edit2: TEdit
+    Left = 88
+    Height = 21
+    Top = 96
+    Width = 64
+    OnExit = Edit2Exit
+    OnKeyPress = Edit2KeyPress
+    TabOrder = 3
+  end
+  object Edit3: TEdit
+    Left = 88
+    Height = 21
+    Top = 64
+    Width = 62
+    OnExit = Edit3Exit
+    OnKeyPress = Edit3KeyPress
+    TabOrder = 4
+  end
+  object Edit4: TEdit
+    Left = 320
+    Height = 21
+    Top = 272
+    Width = 166
+    TabOrder = 5
+  end
+  object Label1: TLabel
+    Left = 5
+    Height = 14
+    Top = 40
+    Width = 57
+    Caption = 'Input Layer'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 14
+    Top = 96
+    Width = 61
+    Caption = 'HiddenLayer'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 5
+    Height = 14
+    Top = 68
+    Width = 65
+    Caption = 'Output Layer'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 168
+    Height = 14
+    Top = 40
+    Width = 36
+    Caption = 'Neuron'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 168
+    Height = 14
+    Top = 68
+    Width = 36
+    Caption = 'Neuron'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 168
+    Height = 14
+    Top = 97
+    Width = 28
+    Caption = 'Layer'
+    ParentColor = False
+  end
+  object StringGrid1: TStringGrid
+    Left = 16
+    Height = 184
+    Top = 136
+    Width = 73
+    ColCount = 1
+    FixedCols = 0
+    FixedRows = 0
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goSmoothScroll]
+    RowCount = 2
+    TabOrder = 6
+    OnClick = StringGrid1Click
+    OnKeyPress = StringGrid1KeyPress
+  end
+  object Button2: TButton
+    Left = 209
+    Height = 18
+    Top = 96
+    Width = 34
+    Caption = 'Input'
+    OnClick = Button2Click
+    TabOrder = 7
+  end
 end
